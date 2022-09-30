@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+
+    <div id="win"></div>
+
+    <div id="btmnav" class="navbar">
+      
+      <div class="dropup">
+        <button
+          id="dropBtn"
+          class="btn btn-info dropdown-toggle"
+          type="button"
+          data-toggle="dropdown"
+        >
+          Choose Algorithm <span class="caret"></span>
+        </button>
+
+        <ul class="dropdown-menu">
+          <p id="a1" class="list">Bubble Sort</p>
+          <p id="a2" class="list">Selection Sort</p>
+          <p id="a3" class="list">Insertion Sort</p>
+          <p id="a4" class="list">Merge Sort</p>
+          <p id="a5" class="list">Quick Sort</p>
+        </ul>
+
+      </div>
+
+      <button type="button" class="btn btn-info" id="sortBtn">Sort</button>
+
+      <div id="arrsizechanger">
+        <p>Change size of arrary</p>
+        <input type="range" id="slider" class="range" min="5" max="300" value="100" />
+      </div>
+
+      <div id="sortspeedchanger" >
+        <p>Change speed of sorting</p>
+        <input   type="range" id="slider2" class="range" min="5" max="100" value="50"   />
+      </div>
+
+    </div>
+    <script src="prepare.js"></script>
+    <script src="bubblesort.js"></script>
+    <script src="selectionsort.js"></script>
+    <script src="insertionsort.js"></script>
+    <script src="mergesort.js"></script>
+    <script src="quicksort.js"></script>
+  </body>
+</html>
