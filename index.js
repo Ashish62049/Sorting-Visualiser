@@ -1,15 +1,15 @@
 //accessing html elements------------------------------------------------------------------
 
-var win = document.getElementById("win");
-var sl = document.getElementById("slider");
-var sl2 = document.getElementById("slider2");
-var sortBtn = document.getElementById("sortBtn");
-var dropBtn = document.getElementById("dropBtn");
-var a1 = document.getElementById("a1");
-var a2 = document.getElementById("a2");
-var a3 = document.getElementById("a3");
-var a4 = document.getElementById("a4");
-var a5 = document.getElementById("a5");
+const win = document.getElementById("win");
+const sl = document.getElementById("slider");
+const sl2 = document.getElementById("slider2");
+const sortBtn = document.getElementById("sortBtn");
+const dropBtn = document.getElementById("dropBtn");
+const a1 = document.getElementById("a1");
+const a2 = document.getElementById("a2");
+const a3 = document.getElementById("a3");
+const a4 = document.getElementById("a4");
+const a5 = document.getElementById("a5");
 document.body.style.backgroundColor = "black";
 
 //getting size of array from slider and then adjusting the width of bars accordingly----------------------------------------------------------------------------
